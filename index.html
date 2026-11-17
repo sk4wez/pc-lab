@@ -1,0 +1,878 @@
+
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PC LAB — Ремонт, обслуживание и настройка компьютеров</title>
+
+    <meta name="description" content="PC LAB — диагностика, чистка, сборка и обслуживание компьютеров. Помогаем сделать ваш ПК быстрее, стабильнее и надёжнее.">
+
+    <meta name="theme-color" content="#0b1120">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PC LAB — Твой ПК заслуживает лучшего">
+    <meta property="og:description" content="Диагностика, обслуживание, сборка и настройка компьютеров.">
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230b1120'/%3E%3Crect x='11' y='13' width='42' height='29' rx='5' fill='none' stroke='%233b82f6' stroke-width='4'/%3E%3Cpath d='M24 51h16M32 42v9' stroke='%233b82f6' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M23 27h18M23 33h11' stroke='%2360a5fa' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-inner">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i data-lucide="monitor"></i>
+                </span>
+
+                <span>PC <span class="logo-accent">LAB</span></span>
+
+                <i data-lucide="menu" class="logo-burger"></i>
+            </a>
+
+            <nav class="nav" id="main-nav">
+                <a href="#home">Главная</a>
+                <a href="#services">Услуги</a>
+                <a href="#prices">Цены</a>
+                <a href="#about">О нас</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <div class="header-actions">
+                <button
+                    class="theme-toggle"
+                    id="theme-toggle"
+                    type="button"
+                    aria-label="Переключить тему"
+                >
+                    <i data-lucide="sun"></i>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Открыть меню"
+                    aria-expanded="false"
+                >
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <div class="hero-label">
+                        <span class="status-dot"></span>
+                        Компьютерный сервис нового уровня
+                    </div>
+
+                    <h1>
+                        Твой ПК<br>
+                        заслуживает <span>лучшего</span>
+                    </h1>
+
+                    <p>
+                        Помогаем компьютерам работать быстрее, стабильнее
+                        и дольше. От простой чистки до полноценной сборки.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#services" class="primary-button">
+                            Наши услуги
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+
+                        <a href="#contacts" class="secondary-button">
+                            Связаться с нами
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <i data-lucide="shield-check"></i>
+                        Внимание к каждой детали вашего ПК
+                    </div>
+
+                </div>
+
+                <div class="hero-decoration reveal">
+                    <div class="hero-glow"></div>
+
+                    <div class="hero-computer">
+                        <i data-lucide="monitor"></i>
+                        <span>PC LAB</span>
+                    </div>
+                </div>
+
+                <div class="hero-bottom">
+                    <span>01 / 05</span>
+                    <span>Прокрутите вниз</span>
+                    <i data-lucide="arrow-down"></i>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">ЧТО МЫ ДЕЛАЕМ</span>
+
+                    <h2>Наши услуги</h2>
+
+                    <p class="section-description">
+                        Всё необходимое для комфортной и стабильной работы
+                        вашего компьютера.
+                    </p>
+                </div>
+
+                <div class="service-list">
+
+                    <article
+                        class="service-card reveal"
+                        data-service="diagnostics"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="scan-search"></i>
+                        </div>
+
+                        <span class="card-number">01</span>
+
+                        <h3>Диагностика ПК</h3>
+
+                        <p>
+                            Найдём причину неисправностей и проверим
+                            состояние комплектующих.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+
+                    <article
+                        class="service-card reveal"
+                        data-service="cleaning"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="wind"></i>
+                        </div>
+
+                        <span class="card-number">02</span>
+
+                        <h3>Чистка компьютера</h3>
+
+                        <p>
+                            Удаление пыли, обслуживание системы охлаждения
+                            и замена термопасты.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+
+                    <article
+                        class="service-card reveal"
+                        data-service="assembly"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="cpu"></i>
+                        </div>
+
+                        <span class="card-number">03</span>
+
+                        <h3>Сборка ПК</h3>
+
+                        <p>
+                            Подбор совместимых комплектующих и сборка
+                            компьютера под ваши задачи.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+
+                    <article
+                        class="service-card reveal"
+                        data-service="optimization"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="gauge"></i>
+                        </div>
+
+                        <span class="card-number">04</span>
+
+                        <h3>Оптимизация Windows</h3>
+
+                        <p>
+                            Настройка системы, удаление лишнего ПО
+                            и улучшение быстродействия.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+
+                    <article
+                        class="service-card reveal"
+                        data-service="ssd"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="hard-drive"></i>
+                        </div>
+
+                        <span class="card-number">05</span>
+
+                        <h3>Установка SSD</h3>
+
+                        <p>
+                            Установка накопителя, подключение и проверка
+                            его работоспособности.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+
+                    <article
+                        class="service-card reveal"
+                        data-service="maintenance"
+                    >
+                        <div class="icon-box">
+                            <i data-lucide="settings"></i>
+                        </div>
+
+                        <span class="card-number">06</span>
+
+                        <h3>Обслуживание ПК</h3>
+
+                        <p>
+                            Комплексный уход за компьютером
+                            для стабильной работы.
+                        </p>
+
+                        <span class="card-link">
+                            Подробнее <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PRICES -->
+        <section class="prices section" id="prices">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">ПРОЗРАЧНЫЕ ЦЕНЫ</span>
+
+                    <h2>Стоимость услуг</h2>
+
+                    <p class="section-description">
+                        Никаких неожиданных расходов. Стоимость зависит
+                        от сложности и объёма работ.
+                    </p>
+                </div>
+
+                <div class="price-list reveal">
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Диагностика ПК</h3>
+                            <p>Проверка комплектующих и системы</p>
+                        </div>
+                        <strong>от 500 ₽</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Чистка компьютера</h3>
+                            <p>Удаление пыли и обслуживание охлаждения</p>
+                        </div>
+                        <strong>от 1 000 ₽</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Сборка ПК</h3>
+                            <p>Сборка и проверка комплектующих</p>
+                        </div>
+                        <strong>от 2 000 ₽</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Оптимизация Windows</h3>
+                            <p>Настройка и очистка системы</p>
+                        </div>
+                        <strong>от 800 ₽</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Установка SSD</h3>
+                            <p>Монтаж и проверка накопителя</p>
+                        </div>
+                        <strong>от 700 ₽</strong>
+                    </div>
+
+                    <div class="price-item">
+                        <div>
+                            <h3>Комплексное обслуживание</h3>
+                            <p>Полный уход за компьютером</p>
+                        </div>
+                        <strong>от 1 500 ₽</strong>
+                    </div>
+
+                </div>
+
+                <p class="price-disclaimer">
+                    * Цены указаны для демонстрации сайта и не являются
+                    реальным коммерческим предложением.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="container about-content">
+
+                <div class="about-text reveal">
+                    <span class="section-label">ПОЧЕМУ PC LAB</span>
+
+                    <h2>Технологии должны работать на тебя</h2>
+
+                    <p>
+                        Хороший компьютер — это не только мощные комплектующие.
+                        Важно, чтобы каждый элемент работал правильно,
+                        а система оставалась стабильной.
+                    </p>
+
+                    <p>
+                        Мы уделяем внимание деталям, подбираем решения
+                        под конкретные задачи и не предлагаем лишнего.
+                    </p>
+
+                    <div class="about-features">
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Внимание к деталям</span>
+                        </div>
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Индивидуальный подход</span>
+                        </div>
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Понятные рекомендации</span>
+                        </div>
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Аккуратная работа</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="about-decoration reveal">
+                    <div class="about-decoration-inner">
+                        <i data-lucide="cpu"></i>
+                        <span>PC LAB</span>
+                        <small>PERFORMANCE · CARE · QUALITY</small>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACTS -->
+        <section class="contacts section" id="contacts">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">ЕСТЬ ВОПРОСЫ?</span>
+
+                    <h2>Давайте обсудим ваш ПК</h2>
+
+                    <p class="section-description">
+                        Оставьте заявку, и мы поможем подобрать подходящее
+                        решение для вашей задачи.
+                    </p>
+                </div>
+
+                <form class="request-form reveal" id="request-form">
+
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Как к вам обращаться?"
+                            required
+                            minlength="2"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact">Контакт для связи</label>
+
+                        <input
+                            type="text"
+                            id="contact"
+                            name="contact"
+                            placeholder="Телефон или мессенджер"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Какая услуга вас интересует?</label>
+
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>
+                                Выберите услугу
+                            </option>
+
+                            <option value="Диагностика ПК">Диагностика ПК</option>
+                            <option value="Чистка компьютера">Чистка компьютера</option>
+                            <option value="Сборка ПК">Сборка ПК</option>
+                            <option value="Оптимизация Windows">Оптимизация Windows</option>
+                            <option value="Установка SSD">Установка SSD</option>
+                            <option value="Обслуживание ПК">Обслуживание ПК</option>
+                            <option value="Другое">Другое</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Дополнительная информация</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Опишите вашу задачу..."
+                        ></textarea>
+                    </div>
+
+                    <button class="submit-button" type="submit">
+                        Отправить заявку
+                        <i data-lucide="arrow-right"></i>
+                    </button>
+
+                    <p class="form-status" id="form-status" aria-live="polite"></p>
+
+                    <p class="form-disclaimer">
+                        Демонстрационная форма. Данные никуда не отправляются.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i data-lucide="monitor"></i>
+                </span>
+
+                <span>PC <span class="logo-accent">LAB</span></span>
+            </a>
+
+            <p>© 2026 PC LAB. Демонстрационный проект.</p>
+
+            <a href="#home" class="back-to-top" aria-label="Наверх">
+                <i data-lucide="arrow-up"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <!-- SERVICE MODAL -->
+    <div class="service-modal" id="service-modal" aria-hidden="true">
+
+        <div class="modal-overlay" data-close-modal></div>
+
+        <div
+            class="modal-content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-title"
+        >
+
+            <button
+                class="modal-close"
+                id="modal-close"
+                type="button"
+                aria-label="Закрыть"
+            >
+                <i data-lucide="x"></i>
+            </button>
+
+            <div class="modal-icon" id="modal-icon">
+                <i data-lucide="settings"></i>
+            </div>
+
+            <span class="section-label">PC LAB SERVICE</span>
+
+            <h2 id="modal-title">Название услуги</h2>
+
+            <p id="modal-description"></p>
+
+            <ul id="modal-list"></ul>
+
+            <div class="modal-price" id="modal-price"></div>
+
+            <a href="#contacts" class="primary-button" id="modal-order">
+                Оставить заявку
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        // Иконки
+        function refreshIcons() {
+            if (window.lucide) {
+                lucide.createIcons();
+            }
+        }
+
+        refreshIcons();
+
+
+        // МОБИЛЬНОЕ МЕНЮ
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = mainNav.classList.toggle('active');
+
+                menuToggle.setAttribute('aria-expanded', String(isOpen));
+                menuToggle.innerHTML = isOpen
+                    ? '<i data-lucide="x"></i>'
+                    : '<i data-lucide="menu"></i>';
+
+                refreshIcons();
+            });
+
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mainNav.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                    menuToggle.innerHTML = '<i data-lucide="menu"></i>';
+                    refreshIcons();
+                });
+            });
+        }
+
+
+        // ПЕРЕКЛЮЧЕНИЕ ТЕМЫ
+        const themeToggle = document.getElementById('theme-toggle');
+
+        function setTheme(theme) {
+            document.documentElement.dataset.theme = theme;
+
+            if (themeToggle) {
+                themeToggle.innerHTML = theme === 'dark'
+                    ? '<i data-lucide="sun"></i>'
+                    : '<i data-lucide="moon"></i>';
+
+                themeToggle.setAttribute(
+                    'aria-label',
+                    theme === 'dark'
+                        ? 'Включить светлую тему'
+                        : 'Включить тёмную тему'
+                );
+            }
+
+            refreshIcons();
+        }
+
+        const savedTheme = localStorage.getItem('pc-lab-theme');
+
+        if (savedTheme === 'light' || savedTheme === 'dark') {
+            setTheme(savedTheme);
+        } else {
+            setTheme('dark');
+        }
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.dataset.theme;
+                const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+                setTheme(nextTheme);
+                localStorage.setItem('pc-lab-theme', nextTheme);
+            });
+        }
+
+
+        // ДАННЫЕ УСЛУГ
+        const serviceData = {
+            diagnostics: {
+                icon: 'scan-search',
+                title: 'Диагностика ПК',
+                description: 'Комплексная проверка компьютера, которая поможет выявить неисправности и определить причину проблем.',
+                items: [
+                    'Проверка комплектующих',
+                    'Анализ температуры и нагрузки',
+                    'Поиск программных ошибок',
+                    'Рекомендации по устранению проблем'
+                ],
+                price: 'от 500 ₽'
+            },
+
+            cleaning: {
+                icon: 'wind',
+                title: 'Чистка компьютера',
+                description: 'Обслуживание системы охлаждения для поддержания нормальной температуры и стабильной работы.',
+                items: [
+                    'Удаление пыли из корпуса',
+                    'Очистка вентиляторов',
+                    'Обслуживание системы охлаждения',
+                    'Проверка температур'
+                ],
+                price: 'от 1 000 ₽'
+            },
+
+            assembly: {
+                icon: 'cpu',
+                title: 'Сборка ПК',
+                description: 'Подбор и сборка компьютера с учётом бюджета, совместимости комплектующих и ваших задач.',
+                items: [
+                    'Подбор комплектующих',
+                    'Проверка совместимости',
+                    'Аккуратная сборка',
+                    'Первичная проверка системы'
+                ],
+                price: 'от 2 000 ₽'
+            },
+
+            optimization: {
+                icon: 'gauge',
+                title: 'Оптимизация Windows',
+                description: 'Настройка операционной системы для более комфортной и стабильной работы.',
+                items: [
+                    'Настройка автозагрузки',
+                    'Удаление ненужных программ',
+                    'Проверка системных параметров',
+                    'Настройка Windows'
+                ],
+                price: 'от 800 ₽'
+            },
+
+            ssd: {
+                icon: 'hard-drive',
+                title: 'Установка SSD',
+                description: 'Установка и подключение накопителя, чтобы расширить хранилище или ускорить работу компьютера.',
+                items: [
+                    'Проверка совместимости',
+                    'Установка накопителя',
+                    'Подключение и настройка',
+                    'Проверка работоспособности'
+                ],
+                price: 'от 700 ₽'
+            },
+
+            maintenance: {
+                icon: 'settings',
+                title: 'Обслуживание ПК',
+                description: 'Комплексный уход за компьютером, включающий основные процедуры проверки и обслуживания.',
+                items: [
+                    'Общая диагностика',
+                    'Проверка системы охлаждения',
+                    'Проверка накопителей',
+                    'Рекомендации по обслуживанию'
+                ],
+                price: 'от 1 500 ₽'
+            }
+        };
+
+
+        // МОДАЛЬНЫЕ ОКНА
+        const serviceModal = document.getElementById('service-modal');
+        const modalClose = document.getElementById('modal-close');
+        const modalIcon = document.getElementById('modal-icon');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalList = document.getElementById('modal-list');
+        const modalPrice = document.getElementById('modal-price');
+        const modalOrder = document.getElementById('modal-order');
+
+        function openServiceModal(serviceKey) {
+            const service = serviceData[serviceKey];
+
+            if (!service || !serviceModal) return;
+
+            modalIcon.innerHTML = `<i data-lucide="${service.icon}"></i>`;
+            modalTitle.textContent = service.title;
+            modalDescription.textContent = service.description;
+            modalPrice.textContent = service.price;
+
+            modalList.innerHTML = '';
+
+            service.items.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = item;
+                modalList.appendChild(li);
+            });
+
+            serviceModal.classList.add('active');
+            serviceModal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('modal-open');
+
+            refreshIcons();
+        }
+
+        function closeServiceModal() {
+            if (!serviceModal) return;
+
+            serviceModal.classList.remove('active');
+            serviceModal.setAttribute('aria-hidden', 'true');
+            document.body.classList.remove('modal-open');
+        }
+
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.addEventListener('click', () => {
+                openServiceModal(card.dataset.service);
+            });
+        });
+
+        if (modalClose) {
+            modalClose.addEventListener('click', closeServiceModal);
+        }
+
+        if (serviceModal) {
+            serviceModal.querySelectorAll('[data-close-modal]').forEach(element => {
+                element.addEventListener('click', closeServiceModal);
+            });
+        }
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') {
+                closeServiceModal();
+            }
+        });
+
+        if (modalOrder) {
+            modalOrder.addEventListener('click', () => {
+                closeServiceModal();
+            });
+        }
+
+
+        // ДЕМО-ФОРМА
+        const requestForm = document.getElementById('request-form');
+        const formStatus = document.getElementById('form-status');
+
+        if (requestForm) {
+            requestForm.addEventListener('submit', event => {
+                event.preventDefault();
+
+                if (!requestForm.checkValidity()) {
+                    requestForm.reportValidity();
+                    return;
+                }
+
+                formStatus.textContent =
+                    '✓ Демонстрационная заявка оформлена! Данные никуда не отправлены.';
+
+                formStatus.classList.add('success');
+
+                requestForm.reset();
+            });
+        }
+
+
+        // АНИМАЦИЯ ПОЯВЛЕНИЯ ЭЛЕМЕНТОВ
+        const revealElements = document.querySelectorAll('.reveal');
+
+        if ('IntersectionObserver' in window) {
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.12
+            });
+
+            revealElements.forEach(element => {
+                revealObserver.observe(element);
+            });
+        } else {
+            revealElements.forEach(element => {
+                element.classList.add('visible');
+            });
+        }
+
+    </script>
+
+</body>
+</html>
